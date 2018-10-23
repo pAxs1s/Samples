@@ -61,7 +61,7 @@ namespace Basics {
         
         // static
         // constexpr int m_exprConst = 1;               // ERROR (cause: can't be with non-static member)
-        // const static int Var = 4;                    // ERROR (cause: this is 'constexpr')
+        const static int statConst = 4;
         constexpr static int statConstexpr = 9;
         
         
